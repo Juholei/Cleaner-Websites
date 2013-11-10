@@ -11,4 +11,5 @@
 // ==/UserScript==
 
 //Piilotetaan roskapalkki alhaalta
-document.getElementById("smf-footer").style.display = 'none';
+document.getElementById("smf-footer").remove();
+document.getElementById("smf-footer").remove();
