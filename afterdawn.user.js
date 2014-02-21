@@ -23,8 +23,13 @@ function addJQuery(callback) {
 }
 
 function main() {
+    //Add check to remove these only in the correct site
     $('.uc').remove();
     $('#commentlist').remove();
+    $('.comments').remove();
+    $('.article-comments').remove();
+
+
 }
 
 // load jQuery and execute the main function
